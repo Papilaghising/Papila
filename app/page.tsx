@@ -13,7 +13,7 @@ export default function Home() {
               <img
                 src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/A__2_-removebg-preview-splpMuJMqpG8Dw9aJq03HFJxPkOE3o.png"
                 alt="TrueClaim Logo"
-                className="h-20 w-auto drop-shadow-[0_0_15px_rgba(37,99,235,0.6)]"
+                className="h-24 w-auto drop-shadow-[0_0_15px_rgba(37,99,235,0.6)]"
               />
             </div>
           </Link>
@@ -86,7 +86,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button className="bg-white text-blue-700 hover:bg-blue-50 h-14 px-8 text-lg shadow-[0_0_25px_rgba(255,255,255,0.6)] hover:shadow-[0_0_35px_rgba(255,255,255,0.8)] transition-all duration-300 hover:scale-105">
-                    Request Demo
+                    Start Conversation
                     <ArrowRight className="ml-2 h-5 w-5" />
                   </Button>
                   <Button
@@ -499,7 +499,7 @@ export default function Home() {
       </main>
 
       {/* Footer */}
-      <footer className="bg-gradient-to-b from-gray-900 to-blue-700 text-white py-12 shadow-[0_0_30px_rgba(30,64,175,0.3)]">
+      <footer className="bg-gradient-to-b from-gray-900 to-blue-900 text-white py-12 shadow-[0_0_30px_rgba(30,64,175,0.3)]">
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center mb-12">
             <div className="bg-white p-4 rounded-xl inline-block mb-6 shadow-[0_0_30px_rgba(255,255,255,0.5)] glow-blue-animate">
