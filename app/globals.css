@@ -99,86 +99,25 @@
 }
 
 @layer utilities {
-  /* Text glow effects */
-  .text-glow-sm {
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  .text-shadow-sm {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
   }
 
-  .text-glow-md {
-    text-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  .text-shadow-lg {
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
   }
 
-  .text-glow-lg {
-    text-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-  }
-
-  /* Glowing elements */
-  .glow-white-sm {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-  }
-
-  .glow-white {
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-  }
-
-  .glow-blue-sm {
-    box-shadow: 0 0 10px rgba(37, 99, 235, 0.3);
-  }
-
-  .glow-blue {
-    box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
-  }
-
-  /* Animated glows */
-  @keyframes glow-pulse-blue {
+  @keyframes glow {
     0%,
     100% {
-      box-shadow: 0 0 20px rgba(37, 99, 235, 0.5);
+      box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
     }
     50% {
-      box-shadow: 0 0 40px rgba(37, 99, 235, 0.8);
+      box-shadow: 0 0 30px rgba(59, 130, 246, 0.8);
     }
   }
 
-  @keyframes glow-pulse-white {
-    0%,
-    100% {
-      box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
-    }
-    50% {
-      box-shadow: 0 0 40px rgba(255, 255, 255, 0.8);
-    }
-  }
-
-  .glow-blue-animate {
-    animation: glow-pulse-blue 3s infinite;
-  }
-
-  .glow-white-animate {
-    animation: glow-pulse-white 3s infinite;
-  }
-
-  /* Slow pulse animation */
-  @keyframes pulse-slow {
-    0%,
-    100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.8;
-    }
-  }
-
-  .animate-pulse-slow {
-    animation: pulse-slow 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  }
-
-  /* Glow for underlines and borders */
-  .glow-white {
-    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.5));
-  }
-
-  .glow-blue {
-    filter: drop-shadow(0 0 8px rgba(37, 99, 235, 0.5));
+  .animate-glow {
+    animation: glow 3s infinite;
   }
 }
