@@ -576,13 +576,17 @@ export default function Home() {
             <div>
               <h3 className="font-bold mb-6 text-xl text-white text-glow-md">Contact</h3>
               <ul className="space-y-4">
+                <li className="text-blue-200 text-base">Trueclaim Headquarters</li>
                 <li className="text-blue-200 text-base">123 Business Avenue, Suite 500</li>
-                <li className="text-blue-200 text-base">Chicago, IL 60601</li>
-                <li className="text-blue-200 text-base">info@trueclaim.com</li>
-                <li className="text-blue-200 text-base">+1 (800) 555-1234</li>
+                <li className="text-blue-200 text-base">Chicago, IL 60601, USA</li>
+                <li className="text-blue-200 text-base">
+                  <a href="mailto:info@trueclaim.com" className="hover:underline">info@trueclaim.com</a>
+                </li>
+                <li className="text-blue-200 text-base">
+                  <a href="tel:+18005551234" className="hover:underline">+1 (800) 555-1234</a>
+                </li>
               </ul>
             </div>
-          </div>
           <div className="border-t border-blue-800 pt-8 flex flex-col md:flex-row justify-between items-center">
             <p className="text-sm text-blue-300 text-glow-sm">© 2024 TrueClaim. All rights reserved.</p>
             <nav className="flex gap-8 mt-4 md:mt-0">
