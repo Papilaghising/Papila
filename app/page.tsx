@@ -552,7 +552,7 @@ export default function Home() {
                     href="#"
                     className="text-blue-200 hover:text-white text-base hover:text-glow-sm transition-all duration-300"
                   >
-                    Claims Verification
+                    Claims Verification.
                   </Link>
                 </li>
                 <li>
